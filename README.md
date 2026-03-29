@@ -23,7 +23,17 @@ npm install
 npm run dev
 ```
 
-## Docker 部署
+## 一键部署（推荐）
+
+在 VPS 上执行：
+
+```bash
+bash deploy.sh
+```
+
+脚本会自动完成：检测系统环境、安装 Git/Docker、交互式配置（端口/域名/HTTPS）、拉代码、构建部署。支持 Ubuntu/Debian、CentOS/RHEL/Fedora、Alpine。再次执行即可更新部署。
+
+## 手动 Docker 部署
 
 ```bash
 docker build -t chiyou .
