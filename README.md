@@ -28,7 +28,7 @@ npm run dev
 在 VPS 上执行：
 
 ```bash
-bash deploy.sh
+wget -O deploy.sh https://raw.githubusercontent.com/InphinitiZ/chiyou/main/deploy.sh && bash deploy.sh
 ```
 
 脚本会自动完成：检测系统环境、安装 Git/Docker、交互式配置（端口/域名/HTTPS）、拉代码、构建部署。支持 Ubuntu/Debian、CentOS/RHEL/Fedora、Alpine。再次执行即可更新部署。
