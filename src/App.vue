@@ -21,6 +21,7 @@ const route = useRoute()
 
 const toolNames = {
   '/tools/json-formatter': 'JSON 格式化 / 压缩',
+  '/tools/markdown-renderer': 'Markdown 渲染',
 }
 
 const currentToolName = computed(() => {

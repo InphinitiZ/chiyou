@@ -34,7 +34,8 @@ src/
 ├── styles/global.css              # 全局样式和 CSS 变量
 ├── components/Sidebar.vue         # 侧边栏导航
 └── tools/                         # 每个工具一个子目录
-    └── json-formatter/index.vue   # JSON 格式化工具
+    ├── json-formatter/index.vue   # JSON 格式化工具
+    └── markdown-renderer/index.vue # Markdown 渲染工具
 ```
 
 ## 添加新工具（3 步）
@@ -52,6 +53,14 @@ src/
 - 输出始终使用语法高亮渲染（JSON 用 json 语言，JSON5 用 javascript 语言）
 - 可选缩进：2 空格 / 4 空格 / Tab
 - 输出框悬停显示复制按钮
+
+### Markdown 渲染
+- 左右双栏：左边 Markdown 输入，右边实时预览
+- 中间有折叠按钮，可隐藏编辑区全屏预览
+- 代码块功能丰富：语法高亮、行号、语言切换下拉（带搜索）、一键复制
+- 使用 marked + marked-highlight + highlight.js（common 包）
+- 代码块语言选择器是自定义下拉（非原生 select），支持搜索过滤
+- 工具栏：清空、加载示例、复制 HTML
 
 ## 注意事项
 

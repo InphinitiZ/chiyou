@@ -22,6 +22,7 @@
 <script setup>
 const tools = [
   { name: 'JSON 格式化', path: '/tools/json-formatter', icon: '{ }' },
+  { name: 'Markdown 渲染', path: '/tools/markdown-renderer', icon: 'M' },
 ]
 </script>
 

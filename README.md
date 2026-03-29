@@ -5,11 +5,13 @@
 ## 已有工具
 
 - **JSON 格式化 / 压缩** — 支持 JSON 与 JSON5 互转，语法高亮输出
+- **Markdown 渲染** — 实时预览，代码块语法高亮 + 行号 + 语言切换 + 一键复制
 
 ## 技术栈
 
 - Vue 3 + Vite
 - highlight.js（语法高亮）
+- marked + marked-highlight（Markdown 渲染）
 - Docker + Nginx（部署）
 
 ## 本地开发

@@ -9,6 +9,10 @@ const routes = [
     path: '/tools/json-formatter',
     component: () => import('../tools/json-formatter/index.vue'),
   },
+  {
+    path: '/tools/markdown-renderer',
+    component: () => import('../tools/markdown-renderer/index.vue'),
+  },
 ]
 
 const router = createRouter({
