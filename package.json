@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "croner": "^10.0.1",
     "highlight.js": "^11.11.1",
     "json5": "^2.2.3",
     "marked": "^17.0.5",

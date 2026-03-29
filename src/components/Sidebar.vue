@@ -23,6 +23,7 @@
 const tools = [
   { name: 'JSON 格式化', path: '/tools/json-formatter', icon: '{ }' },
   { name: 'Markdown 渲染', path: '/tools/markdown-renderer', icon: 'M' },
+  { name: 'Cron 生成器', path: '/tools/cron-generator', icon: '*' },
 ]
 </script>
 

@@ -13,6 +13,10 @@ const routes = [
     path: '/tools/markdown-renderer',
     component: () => import('../tools/markdown-renderer/index.vue'),
   },
+  {
+    path: '/tools/cron-generator',
+    component: () => import('../tools/cron-generator/index.vue'),
+  },
 ]
 
 const router = createRouter({
